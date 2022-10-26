@@ -11,4 +11,6 @@ item_count = 8
 # Курс доллара
 dollar_rate = 74.12
 
-# TODO: your code here
+total_price = item.get("price")
+print(f"{float(total_price)*8/74.12:.2f}")
+
